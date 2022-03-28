@@ -58,31 +58,50 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
+  border: 2px solid tomato;
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
+  border: 2px solid rgb(71, 255, 80);
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
+  border: 2px solid rgb(71, 89, 255);
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
+  border: 2px solid tomato;
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
+  border: 2px solid rgb(227, 255, 71);
 }
 
 .sec6 {
   display: none;
   transform: translateY(0) scale(1);
+  border: 2px solid rgb(255, 71, 200);
+}
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0%{
+            transform: translateY(-100%) scaleY(0);
+        }
+        100%{
+            transform: translateY(0) scaleY(1);
+        }
+    }
 }
 
 // Controls
