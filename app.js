@@ -2,7 +2,7 @@ const sections = document.querySelectorAll(".section");
 const sectBtns = document.querySelectorAll(".controls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
-
+const themeBtn = document.querySelector('.theme-btn');
 
 function pageTransitions() {
     // Button click active class
@@ -38,7 +38,7 @@ function pageTransitions() {
     })
 
     //Toggle theme
-    const themeBtn = document.querySelector('.theme-btn');
+    // const themeBtn = document.querySelector('.theme-btn');
     themeBtn.addEventListener('click',() =>{
         let element = document.body;
         element.classList.toggle('light-mode')
