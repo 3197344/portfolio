@@ -1,4 +1,4 @@
-.btn-container{
+.btn-con{
     display: flex;
     align-self: flex-start;
 
@@ -40,9 +40,6 @@
 }
 
 .btn-icon{
-    // width: 20px;
-    // height: 20px;
-
     background-color: var(--color-secondary);
     border-radius: 50%;
     display: flex;
